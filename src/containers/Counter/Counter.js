@@ -36,9 +36,7 @@ const mapDispatchToProps = dispatch => {
         }),
         onAddCounter: () => dispatch({
             type: 'ADD',
-            payload: {
-                val: 10
-            }
+            val: 10
         }),
         onSubtractCounter: () => dispatch({
             type: 'SUBTRACT',
