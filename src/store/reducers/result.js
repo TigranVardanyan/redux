@@ -10,7 +10,7 @@ const reducer = (state = initialState, action) => {
         ...state,
         results: state.results.concat({
           id: new Date(),//todo add some hash for prevent id repeat when button clicked fast
-          value: action.result
+          value: action.result *2
         })
       }
     case actionTypes.DELETE_RESULT:
